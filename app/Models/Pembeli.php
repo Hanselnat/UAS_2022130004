@@ -7,5 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Pembeli extends Model
 {
-    use HasFactory;
+    protected $fillable = [
+        'nama_pembeli',
+        'jenis_pembeli',
+        'kontak',
+        'alamat',
+    ];
 }

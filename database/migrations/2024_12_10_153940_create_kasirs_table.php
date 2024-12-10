@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('kasirs', function (Blueprint $table) {
             $table->id();
-            $table->string('nama');
+            $table->string('nama')->unique();
             $table->string('kontak');
             $table->string('status');
             $table->timestamps();

@@ -8,7 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 class Kasir extends Model
 {
     protected $fillable = [
-        'nama_kategori',
-        'deskripsi',
+        'nama',
+        'kontak',
+        'status',
     ];
 }
